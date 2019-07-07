@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="562a3b8d-541a-4971-8685-468c94c57121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/janikibichi/routes/DonutRoutes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/CreateDonutTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutQueryParametersTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutStoreActorTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutStoreActorTests.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -81,13 +78,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/janikibichi/models/CreateDonutTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="464">
+              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
               <folding>
                 <element signature="e#32#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutQueryParametersTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1566">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+              <folding>
+                <element signature="e#32#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutStoreActorTests.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/janikibichi/routes/DonutRoutes.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/CreateDonutTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutQueryParametersTest.scala" />
       </list>
     </option>
   </component>
@@ -475,13 +485,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/models/DonutActorFSM.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/routes/DonutRoutes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="203">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
-            <element signature="e#32#69#0" expanded="true" />
+            <element signature="e#32#96#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/models/DonutStoreActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -495,10 +512,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/models/DonutStoreActor.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/models/DonutActorFSM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#32#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,22 +532,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/janikibichi/routes/DonutRoutes.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/janikibichi/models/CreateDonutTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="464">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
           <folding>
-            <element signature="e#32#96#0" expanded="true" />
+            <element signature="e#32#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/janikibichi/models/CreateDonutTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/janikibichi/models/DonutQueryParametersTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="1566">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding>
-            <element signature="e#32#114#0" expanded="true" />
+            <element signature="e#32#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
